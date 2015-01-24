@@ -4,33 +4,33 @@ Coursera 'Getting and Cleaning Data' course - Course Project Info
 
 This Code Book describes the output created by the run_analysis script.
 
-For Step 4 of Project the script creates a dataset called all_data_tall
+For Step 4 of the Project the script creates a dataset called all_data_tall
 
-For Step 5 of Project the script creates a dataset called avg_data_tall which is then output to a text file called
+For Step 5 of the Project the script creates a dataset called avg_data_tall which is then output to a text file called
 'Project_Step5_Average_Data.txt'
 
 **These two datasets all_data_tall and avg_data_tall are described below:**
 
 ##all_data_tall
 =============
-**Description:**	Holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
+**Description:**	The all_data_tall dataset holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
 
-**Structure:**		A tall, narrow dataset with just 4 variables & a rows for each measurement for all subjects and activities.
+**Structure:**		A tall, narrow dataset with just 4 variables & rows for each measurement for all subjects and activities.
 
-**Columns:**
+**Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Measurement_Value
 
 **Column Name:	Subject ID**
 
 **Description:**	Holds the subject identifier relating to the volunteer for whom this measurement relates
 
-**Type:	**		Integer
-*Values:**		1 to 30
+**Type:**		Integer
+**Values:**		1 to 30
 
 **Column Name:	Activity**
 
 **Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
 
-**Type:**		Factor
+**Type:**Factor
 
 **Values:**		Six possible values:
 
