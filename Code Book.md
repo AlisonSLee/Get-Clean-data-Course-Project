@@ -1,15 +1,15 @@
 ﻿# Get-Clean-data-Course-Project
 ===============================
-Coursera 'Getting and Cleaning Data' course - Course Project Info
+**Coursera 'Getting and Cleaning Data' course - Course Project**
 
 This Code Book describes the output created by the run_analysis script.
 
-For Step 4 of the Project the script creates a dataset called all_data_tall
+* For Step 4 of the Project the script creates a dataset called ***all_data_tall***
 
-For Step 5 of the Project the script creates a dataset called avg_data_tall which is then output to a text file called
+* For Step 5 of the Project the script creates a dataset called ***avg_data_tall*** which is then output to a text file called
 'Project_Step5_Average_Data.txt'
 
-**These two datasets all_data_tall and avg_data_tall are described below:**
+**These two datasets, all_data_tall and avg_data_tall, are described below:**
 
 ## 1. all_data_tall
 ---------------
@@ -135,7 +135,7 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
 
 
 ## 2. avg_data_tall  
-(this is the final dataset that is output as a text file called 'Project_Step5_Average_Data.txt')
+###(this is the final dataset that is output as a text file called 'Project_Step5_Average_Data.txt')
 ---------------
 **Description:**	The avg_data_tall dataset holds the average values for each subject & activity.
 
