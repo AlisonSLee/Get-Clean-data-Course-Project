@@ -145,4 +145,4 @@ This Code Book describes the output created by the run_analysis script.
 
 These columns have the same structure as described for the all_data_tall dataset above so descriptions are not included again here.
 
-The only difference is that instead of individual *Measurement_Values* (as in all_data_tall), we now have a *Mean* column that is the average of the Measure_Values for that subject & Activity. 
+The only difference is that instead of individual ***Measurement_Values*** (as in all_data_tall), we now have a ***Mean*** column that is the average of the Measure_Values for that subject & Activity. 
