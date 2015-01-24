@@ -68,7 +68,7 @@ Using this data, the script performs the following steps:
 5.From the all_data_tall dataset created in step 4, a second, independent tidy dataset is created that holds
   the average of each measurement variable for each activity and each subject.
   
-  This is also saved as a tall, narrow dataset & give nthe name avg_data_tall.
+  This is also saved as a tall, narrow dataset & given the name avg_data_tall.
   
   This consists of 4 columns: Subject_ID, Activity, Measurement_Name, Mean.
   
