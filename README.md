@@ -4,20 +4,20 @@
 
 **Project:**     Coursera - Getting and Cleaning Data - Course Project
 
-Script name: run_analysis.R
+**Script name:** run_analysis.R
 
-Purpose:     To demonstrate the ability to collect, work with, and clean a dataset
+**Purpose:**     To demonstrate the ability to collect, work with, and clean a dataset
 
-Data source: This project takes data from the following source:
+**Data source:** This project takes data from the following source:
              https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
              
-Data created: The script creates a dataset called 'all_data_tall' that is a tidy dataset for Step 4 of course project
+**Data created:** The script creates a dataset called 'all_data_tall' that is a tidy dataset for Step 4 of course project
               (i.e. it holds all the data relating to measurements on mean and standard deviation)
               From this a dataset called 'avg_data_tall' is created.
               This is a tidy dataset for Step 5 of course project
               (i.e. it holds the average of each variable for each activity and each subject)
               
-Output:       This is written out as a text file called 'Project_Step5_Average_Data.txt'
+**Output:**       This is written out as a text file called 'Project_Step5_Average_Data.txt'
               This text file can be read in & looked at in R using the following command: 
                   data <- read.table(file_path, header = TRUE) 
                   View(data)
