@@ -24,7 +24,7 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
  * **Type:**		Integer
  * **Values:**		1 to 30
 
- **Column Name:	Activity**
+**Column Name:	Activity**
  * **Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
  * **Type:** Factor
  * **Values:**		Six possible values:
@@ -35,11 +35,11 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
    * STANDING
    * LAYING
 
- **Column Name:	Measurement_Value**
+**Column Name:	Measurement_Value**
  * **Description:**	Holds the actual value (i.e. mean or std) for this measurement
  * **Type:**		Integer
 
- **Column Name:	Measurement_Name**
+**Column Name:	Measurement_Name**
  * **Description:**	Holds the name of the standard deviation or mean measurement
  * **Type:**		Factor
  * **Values:**		86 possible values which are described in the table below to show which field from the original 'features data' they were obtained from.
