@@ -19,7 +19,7 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
 
 **Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Measurement_Value
 
-  **Column Name:	Subject ID**
+ **Column Name:	Subject ID**
  * **Description:**	Holds the subject identifier relating to the volunteer for whom this measurement relates
  * **Type:**		Integer
  * **Values:**		1 to 30
@@ -35,7 +35,7 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
    * STANDING
    * LAYING
 
-  **Column Name:	Measurement_Value**
+ **Column Name:	Measurement_Value**
  * **Description:**	Holds the actual value (i.e. mean or std) for this measurement
  * **Type:**		Integer
 
