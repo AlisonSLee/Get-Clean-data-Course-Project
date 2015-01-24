@@ -69,7 +69,9 @@ Using this data, the script performs the following steps:
   the average of each measurement variable for each activity and each subject.
   
   This is also saved as a tall, narrow dataset & give nthe name avg_data_tall.
+  
   This consists of 4 columns: Subject_ID, Activity, Measurement_Name, Mean.
+  
   This final dataset is written out as a text file called 'Project_Step5_Average_Data.txt'.
   
 Further information on the data is supplied in the associated Code Book.
