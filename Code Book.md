@@ -13,37 +13,31 @@ For Step 5 of Project the script creates a dataset called avg_data_tall which is
 
 ##all_data_tall
 =============
-**Description:**
-	Holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
-**Structure:**	
-	A tall, narrow dataset with just 4 variables & a rows for each measurement for all subjects and activities.
+**Description:**	Holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
+**Structure:**		A tall, narrow dataset with just 4 variables & a rows for each measurement for all subjects and activities.
 **Columns:**
 
-**Column Name:**
-	Subject ID
-**Description:**
-	Holds the subject identifier relating to the volunteer for whom this measurement relates
-**Type:	**
-	Integer
-*Values:**
-	1 to 30
+**Column Name:**	Subject ID
+**Description:**	Holds the subject identifier relating to the volunteer for whom this measurement relates
+**Type:	**		Integer
+*Values:**		1 to 30
 
 **Column Name:**	Activity
 **Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
 **Type:**		Factor
 **Values:**		Six possible values:
-*WALKING
-*WALKING_UPSTAIRS
-*WALKING_DOWNSTAIRS
-*SITTING
-*STANDING
+
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+*  STANDING
 *LAYING
 
 **Column Name:**	Measurement_Name
 **Description:**	Holds the name of the standard deviation or mean measurement
 **Type:**		Factor
-**Values:**		86 possible values which are described in the table below to show which field
-		from the original 'features data' they were obtained from.
+**Values:**		86 possible values which are described in the table below to show which field from the original 'features data' they were obtained from.
 
 Value|Equivalent description from features data|Equivalent column number in features data
 -------|---------------------------------------------------------|----------------------------------------------------------
