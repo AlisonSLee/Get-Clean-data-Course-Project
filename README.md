@@ -44,8 +44,9 @@ Using this data, the script performs the following steps:
   
 4.Appropriately labels the data set with descriptive variable names. 
   This was done by replacing the original text from the 'features' data with text as follows
+  
     Original text   Replacement text  Notes
-    BodyBody        Body              BodyBody deemed to be a duplication error in original data
+    BodyBody        Body              BodyBody deemed to be a duplication error in original dat
     t               Time              Features info states that prefix t denotes time
     f               Freq              Features info states that prefix f denotes frequency domain signals
     Acc             Acceleration      N.B. the acceleration signal is separated into body & gravity signals
