@@ -40,15 +40,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 **Using this data, the script performs the following steps:**
 ========================================================
-1.Merges the training and the test sets to create one data set.
+**1.** Merges the training and the test sets to create one data set.
 
-2.Extracts only the measurements on the mean and standard deviation for each measurement.
+**2.** Extracts only the measurements on the mean and standard deviation for each measurement.
   This was done by searching for the text 'mean' and 'std' in the 'features' data.
   
-3.Applies descriptive activity names (from activity_labels) to name the activities in the data set and
+**3.** Applies descriptive activity names (from activity_labels) to name the activities in the data set and
   merges the subject & activity data onto the mean & std measurements data.
   
-4.Appropriately labels the data set with descriptive variable names. 
+**4.** Appropriately labels the data set with descriptive variable names. 
   This was done by replacing the original text from the 'features' data with text as follows
   
     Original text   Replacement text  Notes
@@ -65,7 +65,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   So this tall dataset has the descriptive variable name in a column called 'Measurement_Name' and the actual numeric 
   value of the measurement in a column called 'Measurement_Value'.
   
-5.From the all_data_tall dataset created in step 4, a second, independent tidy dataset is created that holds
+**5.** From the all_data_tall dataset created in step 4, a second, independent tidy dataset is created that holds
   the average of each measurement variable for each activity and each subject.
   
   This is also saved as a tall, narrow dataset & given the name avg_data_tall.
