@@ -1,8 +1,8 @@
 # Get-Clean-data-Course-Project
 ===============================
-Coursera 'Getting and Cleaning Data' course - Course Project Info
+**Coursera 'Getting and Cleaning Data' course - Course Project Info**
 
-Project:     Coursera - Getting and Cleaning Data - Course Project
+**Project:**     Coursera - Getting and Cleaning Data - Course Project
 
 Script name: run_analysis.R
 
@@ -38,7 +38,7 @@ smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer 
 More information on this input data is available from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Using this data, the script performs the following steps:
+**Using this data, the script performs the following steps:**
 ========================================================
 1.Merges the training and the test sets to create one data set.
 
@@ -75,3 +75,5 @@ Using this data, the script performs the following steps:
   This final dataset is written out as a text file called 'Project_Step5_Average_Data.txt'.
   
 Further information on the data is supplied in the associated Code Book.
+
+For more detail you can also refer to the comments supplied in the actual R script.
