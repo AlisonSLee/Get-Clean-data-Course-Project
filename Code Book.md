@@ -134,12 +134,15 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
  angle(Z,gravityMean)|angle(Z,gravityMean)|V561 
 
 
-## 2. avg_data_tall  (this is the final dataset that is output as a text file)
+## 2. avg_data_tall  
+(this is the final dataset that is output as a text file)
 ---------------
-**Description:**	The avg_data_tall dataset holds the average values for each subject & activity
+**Description:**	The avg_data_tall dataset holds the average values for each subject & activity.
 
-**Structure:**		A tall, narrow dataset with just 4 variables & rows for each measurement for all subjects and activities.
+**Structure:**		A tall, narrow dataset with just 4 variables.
 
-**Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Mean
+**Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Mean.
+
 These columns have the same structure as described for the all_data_tall dataset above so descriptions are not included again here.
+
 The only difference is that instead of individual *Measurement_Values* (as in all_data_tall), we now have a *Mean* column that is the average of the Measure_Values for that subject & Activity. 
