@@ -39,8 +39,9 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
  * **Description:**	Holds the name of the standard deviation or mean measurement
  * **Type:**		Factor
  * **Values:**		86 possible values which are described in the table below to show which field from the original 'features data' they were obtained from.
- Value|Equivalent description from features data|Equivalent column number in features data
- -------|---------------------------------------------------------|----------------------------------------------------------
+ 
+  Value|Equivalent description from features data|Equivalent column number in features data
+  -----|-----------------------------------------|-----------------------------------------
  Time_Body_Acceleration-mean-X|tBodyAcc-mean()-X|V1
  Time_Body_Acceleration-mean-Y|tBodyAcc-mean()-Y|V2
  Time_Body_Acceleration-mean-Z|tBodyAcc-mean()-Z|V3
