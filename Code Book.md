@@ -14,19 +14,19 @@ For Step 5 of Project the script creates a dataset called avg_data_tall which is
 ##all_data_tall
 =============
 **Description:**
-*Holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
+	Holds the merged subject, activity & test & train data for the variables relating to mean and standard deviation.
 **Structure:**	
-*A tall, narrow dataset with just 4 variables & a rows for each measurement for all subjects and activities.
+	A tall, narrow dataset with just 4 variables & a rows for each measurement for all subjects and activities.
 **Columns:**
 
 **Column Name:**
-*Subject ID
+	Subject ID
 **Description:**
-*Holds the subject identifier relating to the volunteer for whom this measurement relates
-**Type:	**	
-*Integer
+	Holds the subject identifier relating to the volunteer for whom this measurement relates
+**Type:	**
+	Integer
 *Values:**
-*1 to 30
+	1 to 30
 
 **Column Name:**	Activity
 **Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
