@@ -61,14 +61,15 @@ Using this data, the script performs the following steps:
   Similarly text 'XYZ' in the descriptions was left unchanged as I felt it already adequately denoted the 3-axial 
   signals in the X, Y & Z directions.
   
-  The data was transformed from a wide dataset to a tall, narrow dataset,all_data_tall, to make it easier to read.  
+  The data was transformed from a wide dataset to a tall, narrow dataset,all_data_tall, to make it easier to read.
   So this tall dataset has the descriptive variable name in a column called 'Measurement_Name' and the actual numeric 
   value of the measurement in a column called 'Measurement_Value'.
   
 5.From the all_data_tall dataset created in step 4, a second, independent tidy dataset is created that holds
   the average of each measurement variable for each activity and each subject.
+  
   This is also saved as a tall, narrow dataset & give nthe name avg_data_tall.
-  This consists of 4 columns: Subject_ID, Activity, Measurement_Name, Mean
-  This final dataset is written out as a text file called 'Project_Step5_Average_Data.txt'
+  This consists of 4 columns: Subject_ID, Activity, Measurement_Name, Mean.
+  This final dataset is written out as a text file called 'Project_Step5_Average_Data.txt'.
   
 Further information on the data is supplied in the associated Code Book.
