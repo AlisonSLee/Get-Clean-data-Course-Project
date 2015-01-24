@@ -20,26 +20,21 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
 **Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Measurement_Value
 
 **Column Name:	Subject ID**
-
-**Description:**	Holds the subject identifier relating to the volunteer for whom this measurement relates
-
-**Type:**		Integer
-**Values:**		1 to 30
+* **Description:**	Holds the subject identifier relating to the volunteer for whom this measurement relates
+* **Type:**		Integer
+* **Values:**		1 to 30
 
 **Column Name:	Activity**
+* **Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
 
-**Description:**	Holds the Activity (as a descriptive text) for which this measurement relates
-
-**Type:**Factor
-
-**Values:**		Six possible values:
-
-* WALKING
-* WALKING_UPSTAIRS
-* WALKING_DOWNSTAIRS
-* SITTING
-*  STANDING
-*LAYING
+* **Type:** Factor
+* **Values:**		Six possible values:
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  *  STANDING
+  *LAYING
 
 **Column Name:	Measurement_Name**
 
