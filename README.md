@@ -74,6 +74,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   
   This final dataset is written out as a text file called 'Project_Step5_Average_Data.txt'.
   
-Further information on the data is supplied in the associated Code Book.
+  
+*Further information on the data is supplied in the associated Code Book.
 
-For more detail you can also refer to the comments supplied in the actual R script.
+For more detail you can also refer to the comments supplied in the actual R script.*
