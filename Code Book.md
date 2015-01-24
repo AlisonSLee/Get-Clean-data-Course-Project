@@ -135,13 +135,13 @@ For Step 5 of the Project the script creates a dataset called avg_data_tall whic
 
 
 ## 2. avg_data_tall  
-(this is the final dataset that is output as a text file)
+(this is the final dataset that is output as a text file called 'Project_Step5_Average_Data.txt')
 ---------------
 **Description:**	The avg_data_tall dataset holds the average values for each subject & activity.
 
-**Structure:**		A tall, narrow dataset with just 4 variables.
+**Structure:**		A tall, narrow dataset with just 4 columns.
 
-**Columns:**  4 columns: Subject ID, Activity, Measurement_Name, Mean.
+**Columns:**  Subject ID, Activity, Measurement_Name, Mean.
 
 These columns have the same structure as described for the all_data_tall dataset above so descriptions are not included again here.
 
